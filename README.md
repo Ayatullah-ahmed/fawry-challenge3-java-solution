@@ -46,17 +46,4 @@ Shipping 30
 Amount 430
 Customer balance after payment: 70
 
-## Repository Structure
-
-```
-src/
-├── Product.java
-├── CartItem.java
-├── Cart.java
-├── Customer.java
-├── Checkout.java
-├── ShippingService.java
-├── Main.java
-=
-```
 
