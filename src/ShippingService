@@ -1,0 +1,18 @@
+import java.util.List;
+
+public class ShippingService {
+    public static void ship(List<Shippable> items) {
+        System.out.println("** Shipment notice **");
+        float totalWeight = 0;
+        for (Shippable s : items) {
+            System.out.println("- " + s.getName() + " " + formatWeight(s.getWeight()));
+            totalWeight += s.getWeight();
+        }
+        System.out.println("Total package weight " + formatWeight(totalWeight));
+    }
+
+    private static String formatWeight(float weight) {
+        if (weight >= 1000) return String.format("%.1f kg", weight / 1000);
+        return String.format("%.0f g", weight);
+    }
+}
