@@ -29,21 +29,6 @@ The implementation covers and prints output for all required use cases, includin
 4. Adding quantity greater than available stock.
 5. Performing checkout with insufficient customer balance.
 
-## Sample Output
-
-```
-** Shipment notice **
-- Cheese 400g
-- Biscuits 700g
-Total package weight 1.1 kg
-
-** Checkout receipt **
-2x Cheese 200
-1x Biscuits 150
-1x Scratch Card 50
-Subtotal 400
-Shipping 30
-Amount 430
-Customer balance after payment: 70
-
+## Screenshot from the output
+![Sample Output](https://github.com/user-attachments/assets/b1ea10a5-3cca-4cfd-8582-ab6d000463d2)
 
